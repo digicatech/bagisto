@@ -431,7 +431,7 @@
                         let priceElement = document.querySelector('.special-price') ? document.querySelector('.special-price') : document.querySelector('.final-price');
                         let regularPriceElement = document.querySelector('.regular-price');
 
-                        if (this.childAttributes.length == selectedOptionCount) {
+                        if (this.childAttributes.length >= selectedOptionCount) {
                             priceLabelElement.style.display = 'none';
 
                             if (regularPriceElement) {
